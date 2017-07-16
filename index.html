@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>
+        SODA上海开放数据创新应用大赛
+    </title>
+
+    <link rel="stylesheet" href="./style/styles.css" />
+    <script type='text/javascript'>
+      var _vds = _vds || [];
+      window._vds = _vds;
+      (function(){
+        _vds.push(['setAccountId', '936200ccdcbbebfb']);
+        (function() {
+          var vds = document.createElement('script');
+          vds.type='text/javascript';
+          vds.async = true;
+          vds.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'dn-growing.qbox.me/vds.js';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(vds, s);
+        })();
+      })();
+  </script>
+   <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?1017fb2a8d8e8a74f19858c36dc59f45";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+    <!-- start top navbar -->
+    <div class="navbar navbar-fixed-top first-navbar">
+        <div class=" container">
+            <div class="mobile-header row">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id='main-nav'>
+                <div class="navbar-header">
+                    <a href='./'>
+                        <img src="./img/SODA_logo_nav.png">
+                    </a>
+                </div>
+                <ul class="nav navbar-nav text-center">
+                    <li class="nav-tab active">
+                        <a href="./" class="trans">SODA大赛</a>
+                    </li>
+                    <li class="nav-tab">
+                        <a href="./data.html" class="trans">比赛数据</a>
+                    </li>
+                    <li class="nav-tab">
+                        <a href="./rules.html" class="trans">大赛规则</a>
+                    </li>
+                    <li class="nav-tab">
+                        <a href="http://sodachallenges.com/" class="trans" target="_blank">更多赛事</a>
+                    </li>
+                </ul>
+                <p class="navbar-text navbar-right">
+                    <a href="?lang=cn" class="navbar-link">中文版</a> | <a href="?lang=en" class="navbar-link">English</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- end top navbar -->
+    <header>
+        <div class="hero">
+            <div class="circles">
+                <div class="circle-1"></div>
+                <div class="circle-2"></div>
+                <div class="circle-3"></div>
+                <div class="circle-4"></div>
+                <div class="circle-5"></div>
+            </div>
+            <div class="wrapper">
+                <div class="text"></div>
+                <div class="pic">
+                    <div></div>
+                </div>
+            </div>
+            <div class="bubbles">
+            </div>
+
+            <div id="header-logo">
+                <div class="logo-big text-center">
+                    <img src="./img/SODA_logo_large.png" srcset='./img/soda-logo-large_2x.png 2x' class="show-cn">
+                    <img src="./img/soda_logo_EN.png" srcset='./img/soda-logo-large_2x.png 2x' class='show-en'>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- start second navbar -->
+    <nav class="navbar second-navbar" role="navigation">
+        <div class="container">
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav text-center">
+                    <li class="active">
+                        <a href="#enroll" class="trans">大赛主题</a>
+                    </li>
+                    <li>
+                        <a href="#problems" class="trans">创意启发</a>
+                    </li>
+                    <li>
+                        <a href="#award" class="trans">奖项设置</a>
+                    </li>
+                    <li>
+                        <a href="#schedule" class="trans">大赛日程</a>
+                    </li>
+                    <li>
+                        <a href="#news" class="trans">大赛新闻</a>
+                    </li>
+                    <li>
+                        <a href="#sponsors" class="trans">组织单位</a>
+                    </li>
+                </ul>
+
+                <a href="http://sodachallenges.com/competitions/soda2017" class="channel navbar-text navbar-right trans">提交通道</a>
+                <a href="javascript:void(0)" class="btn-wechat navbar-text navbar-right">
+                    <span class="wechat">wechat</span>
+                </a>
+            </div>
+            <div class="qrcode" id='head-qr'>
+                <img src='./img/QR-code.jpg' />
+            </div>
+        </div>
+    </nav>
+    <!-- end second navbar -->
+
+    <!-- start section: enroll -->
+    <section id="enroll">
+        <div class="container">
+            <div class="row">
+                <div class="img-wrapper col-md-12">
+                    <img src="./img/Bottle_shield.png" srcset="./img/Bottle_shield_2x.png 2x" />
+                </div>
+                <div class="text-block col-md-12">
+                    <h2 class="trans">释放数据能量，让数据造福市民</h2>
+                    <p class="trans">城市数据，取之于民，还之于民，一大波数据即将启封释放！这些数据与城市的公共安全、环境保护、智慧交通、健康生活、企业信用等等息息相关，他们好像封装在瓶子里的苏打水，看上去悄无声息，却蕴藏着无穷能量，正等待着你来挖掘他们的价值，让数据造福于市民。</p>
+                </div>
+
+                <div class="text-block col-md-12">
+                    <h2 class="trans">共同携手，创造城市智慧</h2>
+                    <p class="trans">城市智慧，来自众人的智慧和创造。开放数据，同舟共创，把我们的城市变成一个可读可写的大船，每个市民都是船员，通过数据挖掘和创新应用，扬帆驶向未来！</p>
+                </div>
+
+                <div class="sperator col-md-12"></div>
+                <div class="action-block col-md-12">
+                    <a href="http://sodata.io" class="btn-enroll trans">点击报名</a>
+                    <p class="trans">SODA喊你来玩数据啦！你敢上船吗？</p>
+                </div>
+            </div>
+
+            <div class="boat">
+                <img src="./img/Ship.png" srcset="./img/Ship_2x.png 2x" />
+            </div>
+        </div>
+    </section>
+    <!-- end section: enroll -->
+
+    <!-- start section: problems -->
+    <section id="problems">
+        <div class="container">
+            <div class="row">
+                <div class="text-block col-md-12">
+                    <h2 class="trans">众多城市问题等你来解决！</h2>
+                    <p class="trans">我们提供海量数据资源，邀请你针对「城市治理」这一大主题，构思开发数据创意应用，提升上海城市管理水平。数据侠们，是你们登场的时刻了！</p>
+                </div>
+                <!-- 第一行 -->
+                <div class="problem-block col-md-4 col-sm-4">
+                    <div class="pb-1">
+                        <p class="trans">如何利用数据更好治理共享单车？</p>
+                        <div class="btn-group">
+                            <a href="./data.html#data-company" class="btn-data trans">摩拜使用数据</a>
+                            <a href="./data.html#data-company" class="btn-data trans">一卡通乘客刷卡数据</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="problem-block col-md-4 col-sm-4">
+                    <div class="pb-2">
+                        <p class="trans">数据能用来鼓励更多绿色出行吗？</p>
+                        <div class="btn-group">
+                            <a href="./data.html#data-company" class="btn-data trans">挚达充电桩数据</a>
+                            <a href="./data.html#data-company" class="btn-data trans">强生出租汽车行车数据</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="problem-block col-md-4 col-sm-4">
+                    <div class="pb-3">
+                        <p class="trans">透过数据能知环境，但是否能治理环境？</p>
+                        <div class="btn-group">
+                            <a href="./data.html#data-city" class="btn-data trans">水厂水质监测</a>
+                            <a href="./data.html#data-city" class="btn-data trans">重点污染源监督性监测</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 第二行 -->
+                <div class="problem-block col-md-4 col-sm-4">
+                    <div class="pb-4">
+                        <p class="trans">如何利用数据高效监管食品安全，让市民吃的更放心？</p>
+                        <div class="btn-group">
+                            <a href="./data.html#data-city" class="btn-data trans">餐饮处罚数据</a>
+                            <a href="./data.html#data-city" class="btn-data trans">食品抽检结果</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="problem-block col-md-4 col-sm-4">
+                    <div class="pb-red">
+                        <p class="trans">更多城市治理问题，由你来提，等你解决！</p>
+                        <a href="./data.html" class="btn-more trans">点击查看所有数据</a>
+                    </div>
+                </div>
+                <div class="problem-block col-md-4 col-sm-4">
+                    <div class="pb-6">
+                        <p class="trans">企业商业行为如何通过数据去规范监督？</p>
+                        <div class="btn-group">
+                            <a href="./data.html#data-city" class="btn-data trans">企业不良行为记录要素</a>
+                            <a href="./data.html#data-city" class="btn-data trans">企业信用平台数据</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 第三行 -->
+                <div class="problem-block col-md-4 col-sm-4">
+                    <div class="pb-7">
+                        <p class="trans">航旅数据如何驱动新服务，带来体验提升？</p>
+                        <div class="btn-group">
+                            <a href="./data.html#data-company" class="btn-data trans">航旅航班数据</a>
+                            <a href="./data.html#data-company" class="btn-data trans">航旅乘客购票数据</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="problem-block col-md-4 col-sm-4">
+                    <div class="pb-8">
+                        <p class="trans">如何利用数据高效节能智慧用电？</p>
+                        <div class="btn-group">
+                            <a href="./data.html#data-company" class="btn-data trans">园区照明系统开关信息</a>
+                            <a href="./data.html#data-company" class="btn-data trans">园区照明系统耗电信息</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="problem-block col-md-4 col-sm-4">
+                    <div class="pb-9">
+                        <p class="trans">数据如何助力我们更好降低交通事故？</p>
+                        <div class="btn-group">
+                            <a href="./data.html#data-company" class="btn-data trans">一卡通乘客刷卡数据</a>
+                            <a href="./data.html#data-city" class="btn-data trans">交通事故数据</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section: problems -->
+
+    <!-- start section: award -->
+    <section id="award">
+        <div class="container">
+            <h2 class="trans">奖项设置</h2>
+            <div class="row">
+            
+
+                <div class="award-col col-md-4">
+                    <div class="icon-1"></div>
+                    <div class="text-wrapper">
+                        <h3 class="trans">SODA大奖</h3>
+                        <p>1<span class='trans'>支队伍</span> <b class="trans">| 10万元</b></p>
+                    </div>
+                </div>
+
+                <div class="award-col col-md-4">
+                    <div class="icon-2"></div>
+                    <div class="text-wrapper">
+                        <h3 class="trans">SODA优秀奖</h3>
+                        <p>3<span class='trans'>支队伍 </span><b class='trans'>| 各5万元</b></p>
+                    </div>
+                </div>
+
+                <div class="award-col col-md-4">
+                    <div class="icon-3"></div>
+                    <div class="text-wrapper">
+                        <h3 class="trans">SODA种子奖</h3>
+                        <p>6<span class='trans'>支队伍 </span><b class="trans">| 各1万元</b></p>
+                    </div>
+                </div>
+
+             
+
+                <div class="sperator col-md-12"></div>
+
+                <div class="col-md-12 text-center">
+                    <div class="icon-block">
+                        <div class="block-icon-1"></div>
+                        <p class="trans">创业支持</p>
+                    </div>
+
+                    <div class="icon-plus">+</div>
+
+                    <div class="icon-block">
+                        <div class="block-icon-2"></div>
+                        <p class="trans">国际交流</p>
+                    </div>
+                </div>
+
+                <div class="text-line col-md-12 trans">你赢得的不止是奖金。还有专家和团队提供的创业支持以及更大舞台的国际交流！</div>
+            </div>
+        </div>
+    </section>
+    <!-- end section; award -->
+
+    <!-- start section: schedule -->
+    <section id="schedule">
+        <div class="container">
+            <h2 class="trans">大赛日程 </h2>
+            <div class="row">
+                <!-- row 1 -->
+                <div class="schedule-block col-md-6">
+                    <div class="number-1"></div>
+                    <div class="block-content">
+                        <div class="block-top">
+                            <div class="block-icon-1"></div>
+                            <div class="block-head">
+                                <h3 class="trans">报名组队及创意提交</h3>
+                                <p class="desc trans">2017年7月17日——2017年7月30日</p>
+                            </div>
+                        </div>
+                        <p class="block-text trans">参赛者通过竞赛平台进行报名和组队，基于“上海政府数据服务网”提供的数据样本进行初步创意，并按照要求提交初赛创意方案。</p>
+                    </div>
+                </div>
+
+                <div class="schedule-block col-md-6">
+                    <div class="number-2"></div>
+                    <div class="block-content">
+                        <div class="block-top">
+                            <div class="block-icon-2"></div>
+                            <div class="block-head">
+                                <h3 class="trans">初赛作品评审</h3>
+                                <p class="desc trans">2017年7月31日——2017年8月14日</p>
+                            </div>
+                        </div>
+                        <p class="block-text trans">评委基于创意方案完成评审，产生100强团队进入复赛。</p>
+                    </div>
+                </div>
+
+                <!-- row 2 -->
+                <div class="schedule-block col-md-6">
+                    <div class="number-3"></div>
+                    <div class="block-content">
+                        <div class="block-top">
+                            <div class="block-icon-3"></div>
+                            <div class="block-head">
+                                <h3 class="trans">复赛作品开发及原型提交</h3>
+                                <p class="desc trans">2017年8月14日——2017年9月24日</p>
+                            </div>
+                        </div>
+                        <p class="block-text trans">进入复赛的参赛团队获取完整数据，基于创意，完成原型作品的开发实现，并形成原型技术文档，通过提交通道正式提交作品原型和文档。</p>
+                    </div>
+                </div>
+
+                <div class="schedule-block col-md-6">
+                    <div class="number-4"></div>
+                    <div class="block-content">
+                        <div class="block-top">
+                            <div class="block-icon-4"></div>
+                            <div class="block-head">
+                                <h3 class="trans">复赛作品评审</h3>
+                                <p class="desc trans">2017年9月25日——2017年10月16日</p>
+                            </div>
+                        </div>
+                        <p class="block-text trans">评审专家依据评分指标完成复赛作品的评审，完成奖项名单的评定，公布10位奖项入选团队名单。</p>
+                    </div>
+                </div>
+
+                <!-- row 3 -->
+                <div class="schedule-block col-md-6">
+                    <div class="number-5"></div>
+                    <div class="block-content">
+                        <div class="block-top">
+                            <div class="block-icon-5"></div>
+                            <div class="block-head">
+                                <h3 class="trans">落地培训（暂定）</h3>
+                                <p class="desc trans">2017年10月23日——2017年10月27日</p>
+                            </div>
+                        </div>
+                        <p class="block-text trans">上海市大学生科技创业基金会拟为SODA的奖项入选队伍组织专场创业培训。</p>
+                    </div>
+                </div>
+
+                <div class="schedule-block col-md-6">
+                    <div class="number-6"></div>
+                    <div class="block-content">
+                        <div class="block-top">
+                            <div class="block-icon-6"></div>
+                            <div class="block-head">
+                                <h3 class="trans">决赛路演</h3>
+                                <p class="desc trans">2017年11月9日（拟）</p>
+                            </div>
+                        </div>
+                        <p class="block-text trans">10支奖项入选团队将在现场揭晓所获奖项，并获得奖杯、支票。</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end section: schedule -->
+
+    <!-- start section: news -->
+    <section id="news">
+        <div class="container">
+            <div class="row" id="news-row">
+
+            </div>
+            <div class="row">
+               
+            </div>
+        </div>
+    </section>
+    <!-- end section: news -->
+
+    <!-- start section: sponsors -->
+    <section id="sponsors">
+        <div class="container">
+            <h2 class="trans">组织单位 </h2>
+            <h3 class="trans">指导单位</h3>
+            <p class="trans">中央网络安全和信息化领导小组办公室</p>
+            <p class="trans">中华人民共和国国家发展和改革委员会</p>
+            <p class="trans">中华人民共和国工业和信息化部</p>
+
+
+            <div class="sp-block text-block">
+                <h3 class="trans">主办单位</h3>
+
+                <div class="row">
+                    <div class="col-md-12  col-sm-6 trans">上海市经济和信息化委员会</div>
+                </div>
+            </div>
+
+            <div class="sp-block">
+                <h3 class="trans">承办单位</h3>
+
+                <div class="row trans-all">
+                    <div class="col-md-2 col-md-offset-4 col-sm-6 ">
+                        <div class="sp-1">中国工业设计研究院<br/>中国工业设计（上海）研究院股份有限公司</div>
+                    </div>
+                     <div class="col-md-2 col-sm-6 ">
+                        <div class="sp-52">上海苏打数据科技有限公司</div>
+                    </div>
+                </div>
+
+
+                <h3 class="trans">组织委员会</h3>
+                <p class="desc trans">（排名不分先后）</p>
+
+                <div class="row trans-all">
+                    <div class="col-md-2 col-md-offset-1 col-sm-6">
+                        <div class="sp-1">中国工业设计研究院<br/>中国工业设计（上海）研究院股份有限公司</div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="sp-28">上海感知城市数据科学研究院</div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="sp-2">上海树融科技有限公司</div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="sp-30">复旦大学数字与移动治理实验室</div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="sp-31">开放数据中国</div>
+                    </div>
+                </div>
+
+
+
+                <h3 class="trans">协办单位</h3>
+                <p class="desc trans">（排名不分先后）</p>
+
+                <div class="row trans-all">
+                    <div class="col-md-2  col-sm-6">
+                        <div class="sp0-1">上海市大数据产业基地</div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="sp0-2">上海市大数据创新基地</div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="sp-2">上海数据交易中心</div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="sp-3">上海大数据联盟</div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="sp-4">上海交通大学网络信息中心</div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="sp-47">上海绿色出行服务产业创新联盟</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sp-block">
+                <h3 class="trans">赛事专用数据提供单位</h3>
+                <p class="desc trans">（排名不分先后）</p>
+
+                <div class="row trans-all">
+
+
+                    <div class="col-md-2 col-sm-6">
+                        <div class="sp-9">上海市环境保护局</div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="sp-11">上海市水务局</div>
+                    </div>
+                    <div class="col-md-2  col-sm-6">
+                        <div class="sp-12">上海市食品药品监督管理局</div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="sp-13">上海市绿化和市容管理局</div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="sp-15">上海市气象局</div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="sp-50">上海市普陀区科学技术委员会</div>
+                    </div>
+                </div>
+
+                <div class="row trans-all">
+                    <div class="col-md-2 col-sm-6">
+                        <div class="sp-17">上海市城乡建设和交通发展研究院</div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="sp-18">上海浦东新区公共交通有限公司</div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="sp-19">上海公共交通卡股份有限公司</div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-6">
+                        <div class="sp-20">上海强生智能导航技术有限公司</div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-6">
+                        <div class="sp-45">上海挚达科技发展有限公司</div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-6">
+                        <div class="sp-48">上海敬众科技股份有限公司</div>
+                    </div>
+                     <div class="col-md-2 col-md-offset-4  ol-sm-6">
+                        <div class="sp-49">上海仪电（集团）有限公司</div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="sp-46">北京摩拜科技有限公司</div>
+                    </div>
+                </div>
+            </div>
+
+          
+
+            <div class="sp-block">
+                <h3 class="trans">创新投资孵化合作伙伴</h3>
+                <p class="desc trans">（排名不分先后）</p>
+
+                <div class="row trans-all">
+                    <div class="col-md-2 col-md-offset-4 col-sm-6">
+                        <div class="sp-35">上海市大学生科技创业基金会（EFG）</div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="sp-40">社会创新投资联盟</div>
+                    </div>
+                </div>
+
+                <h3 class="trans">国际战略合作伙伴</h3>
+                <p class="desc trans">（排名不分先后）</p>
+
+                <div class="row trans-all">
+                    <div class="col-md-2 col-md-offset-4 col-sm-6">
+                        <div class="sp0-5">英国国际贸易部</div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="sp0-4">澳大利亚贸易投资委员会</div>
+                    </div>
+                </div>
+
+                <h3 class="trans">SDG创新战略合作伙伴</h3>
+                <div class="row trans-all">
+                    <div class="col-md-2 col-md-offset-5 col-sm-6 col-sm-offset-3">
+                        <div class="sp-44">联合国开发计划署</div>
+                    </div>
+                    
+                </div>
+
+                <h3 class="trans">媒体战略合作伙伴</h3>
+                <div class="row trans-all">
+                    <div class="col-md-2 col-md-offset-5 col-sm-6 col-sm-offset-3">
+                        <div class="sp-32">DT财经</div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="sp-block">
+                <h3 class="trans">设计创意</h3>
+                <div class="row trans-all">
+                    <div class="col-md-2 col-md-offset-5 col-sm-6 col-sm-offset-3">
+                        <div class="sp-51">珍威</div>
+                    </div>
+                </div>
+
+
+                <h3 class="trans">法律顾问</h3>
+                <div class="row trans-all">
+                    <div class="col-md-2 col-md-offset-5 col-sm-6 col-sm-offset-3">
+                        <div class="sp0-6">汇衡律师事务所</div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+    <!-- end section: sponsors -->
+
+    <!-- start section: footer -->
+    <footer class="home-footer">
+        <div class="container">
+            <div class="qrcode">
+                <img src="./img/QR-code.jpg" />
+            </div>
+        </div>
+    </footer>
+    <!-- end section: footer -->
+
+    <div class="modal fade" id="top-100-modal" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">100强名单</h4>
+                    <p>按队伍名称首字母顺序排列</p>
+                </div>
+                <div class="modal-body">
+                    <ul id="top-100-list">
+                    </ul>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+    <script type="text/javascript" src="./vendor/jquery/jquery-1.9.0.js"></script>
+    <script type="text/javascript" src="./vendor/jquery.i18n/jquery.i18n.js"></script>
+    <script type="text/javascript" src="./vendor/smoothscroll/smoothscroll.js"></script>
+    <script type="text/javascript" src="./vendor/bootstrap/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="./js/index.js"></script>
+    <script type="text/javascript" src="./js/translation.js"></script>
+    <script type="text/javascript" src="./js/finalist.js"></script>
+    <script type="text/javascript">
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-80073545-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+   
+
+</body>
+
+<script type="text/html" id="news-template">
+    <div class="news-block col-md-3 col-sm-6">
+        <div class="wrapper">
+            <div class="image-block"></div>
+            <div class="text-block">
+                <p>新闻标题，新闻标题。字数控制在30字以内，保证整体美观。</p>
+                <div class="meta-line">
+                    <p>2016-07-13</p>
+                    <a href="#" class="btn-full trans" target='_blank'>阅读全文</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+<script type="text/html" id="top-100-template">
+    <li>
+        <div class="team">队伍名称</div>
+        <div class="project">项目名称项目名称：项目名称</div>
+    </li>
+</script>
+
+</html>
