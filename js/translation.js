@@ -152,6 +152,8 @@ var translation = {
     '中国联通有限公司上海分公司': 'China Unicom Shanghai Branch',
     '上海汇纳信息科技股份有限公司': 'Shanghai Winner Information Technology Co., Inc.',
     
+
+    '上海绿色出行服务产业创新联盟':'Shanghai Green Transportation Service Innovation Alliance',
     '上海树融数据科技有限公司':'Shanghai Data Fusion CO,LTD.',
     '上海苏打数据科技有限公司':'Shanghai SODA Data Tech CO,LTD.',
     '联合国开发计划署':'UNDP',
