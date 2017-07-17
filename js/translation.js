@@ -343,5 +343,10 @@ var translation = {
     '北京摩拜科技有限公司':'Beijing Mobike',
     '摩拜上海城区用户使用数据':'Mobike Shanghai Usage Data',
     '起点、目的地、租赁时间、还车时间、用户ID、车辆ID、交易编号':'origin, destination, rent time, return time, user id, bike id, transaction id',
+    '上海市工商行政管理局':'Shanghai Administrative for industry&Commerce',
+    '消费者投诉举报数据':'Consumer Complaints',
+    '举报/投诉涉及客体信息（编号、商品名称、客体类别、销售方式、品牌、进口标志、消费金额、型号规格、数量、计量单位）、举报/投诉内容信息（编号、内容、事发时间、消费时间、关键字、事件级别、行政区域、事发地）、举报/投诉处理信息（编号、核实情况、应急处理、登记人员、办理部门、经办人、协助单位、处理情况、回复）':'Complaint Object Info(ID, object type, sale method, brand, import, price, product type, quantity, unit), Complaint Content(ID,content, time, transaction time, keyword, event level, district, address), Compaint Result(ID, fact check, emergency response, handler, result, response) ',
+
+
     '按时间排序': 'Sort By Time',
 };
