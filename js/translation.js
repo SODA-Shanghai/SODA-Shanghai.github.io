@@ -151,8 +151,16 @@ var translation = {
     '号百信息服务有限公司': 'China Telecom Best Tone Information Service Co.,Ltd.',
     '中国联通有限公司上海分公司': 'China Unicom Shanghai Branch',
     '上海汇纳信息科技股份有限公司': 'Shanghai Winner Information Technology Co., Inc.',
-
-    '感知城市数据科学研究院': 'Urban Perspective Data Hub',
+    
+    '上海树融数据科技有限公司':'Shanghai Data Fusion CO,LTD.',
+    '上海苏打数据科技有限公司':'Shanghai SODA Data Tech CO,LTD.',
+    '联合国开发计划署':'UNDP',
+    '澳大利亚贸易投资委员会':'Austrade',
+    '英国国际贸易部':'UKDIT',
+    '社会价值投资联盟':'CSVIA',
+    
+    
+    '上海感知城市数据科学研究院': 'Urban Perspective Data Hub',
     '博仕屯众创空间管理（上海）有限公司': 'Shanghai Bosstown Co-Working Space',
     '复旦大学数字与移动治理实验室': 'Lab for Digital and Mobile Governance, Fudan University',
     '开放数据中国': 'Open Data China',
