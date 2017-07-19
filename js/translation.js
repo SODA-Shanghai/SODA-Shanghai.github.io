@@ -127,6 +127,9 @@ var translation = {
     '上海市交通委': 'Shanghai Municipal Transport Commission',
     '上海市经济和信息化委员会': 'Shanghai Commission of Economy and Informatization',
 
+    '赞助单位':'Sponsors',
+    '上海工业投资（集团）有限公司':'Shanghai Industrial Investment (Group) CO,LTD.',
+
     '承办单位': 'Organizer',
     '协办单位': 'Supporter',
     '组织委员会': 'Organizing Committee',
